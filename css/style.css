@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-div{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+header{
+    height: 80vh;
+    background-image: url(../Imgs/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: auto 10px;
+}
+
+.links{
+    margin-right: -200px;
+}
+
+h1{
+    font-size: xx-large;
+    margin-left: -240px;
+}
+
+.h2_header{
+    border: white solid;
+    width: 35%;
+    height: 30vh;
+    font-size:xx-large;
+    margin: 150px;
+    font-size:xx-large;
+    letter-spacing: 5px;
+}
+
+h2{
+    padding: 25px;
+}
+
+.sec1{
+    display: flex;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.image{
+    width: 50%;
+    margin: 200px;
+}
+
+.sec1_text{
+    width: 40%;
+    position: absolute;
+    left: 800px;
+    bottom: 100px;
+    background-color: white;
+    height: 430px;
+    font-size: x-large;
+    padding: 60px;
+}
+
+.sec1_text p{
+    margin-left: 25px;
+}
+
+.sec2_title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.sec2_title button{
+    height: 30px;
+    padding: 5px 40px;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: 230px;
+    text-align: center;
+}
+
+.sec2_title h2{
+    letter-spacing: 4px;
+    margin-left: 170px;
+    font-size: xx-large;
+    margin-bottom: 25px;
+    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 20%;
+    margin: 10px;
+    
+}
+.text{
+    text-align: center;
+    margin-top: -50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.fot_h5{
+    display: flex;
+}
+
+.fot_h5 h5{
+    margin: 25px;
+}
+
+.fot1{
+    margin-left: 70px;
+}
+
+.fot1 h3{
+    margin-left: 25px;
+}
+
+.fot2{
+    margin-right: 100px;
+    text-align: right;
+}
+
+.fot2 p{
+    margin-top: 20px;
+}
